@@ -64,7 +64,7 @@
                 <div class="about__data">
                     <span class="section-subtitle about__initial">Proyecto</span>
                     <h2 class="section-title about__initial">Proyecto Planteado<br> </h2>
-                    <p class="about__description"> Crear un Gemelo Digital, el cual le permita al ciclista conocer su rendimiento y progreso luego de cada entrenamiento realizado. Para ello, se empleará 2 sensores inductivos y 1 microcontrolador, los cuales enviaran data (velocidad y cantidad de pedaleadas) mediante bluetooth al dispositivo móvil y este mediante internet a las herramientas de Azure (Azure IOT Hub, Stream Analytics, Cosmo BD, Azure Digital Twins), con los datos obtenidos podremos crear nuestro gemelo digital y realizar las simulaciones con el objetivo de determinar el rendimiento y progreso que realizara el ciclista luego de cada entrenamiento</p>
+                    <p class="about__description"> Crear un Gemelo Digital, el cual le permita al ciclista conocer su rendimiento y progreso luego de cada entrenamiento realizado. Para ello, se empleará 2 sensores inductivos y 1 microcontrolador, los cuales enviaran data (velocidad y cantidad de pedaleadas) mediante bluetooth al dispositivo móvil y este mediante internet a las herramientas de Azure (Azure IOT Hub, Stream Analytics, Azure SQL Database, Azure Digital Twins), con los datos obtenidos podremos crear nuestro gemelo digital y realizar las simulaciones con el objetivo de determinar el rendimiento y progreso que realizara el ciclista luego de cada entrenamiento</p>
                     <a href="#" class="button">Regresar al Inicio</a>
                 </div>
 
@@ -88,10 +88,12 @@
 
                 <h3 class="services__title">Herramientas Fisicas</h3>
                 <p class="services__description">2 Sensores Inductivos</p>
-                <p class="services__description">1 Microcontrolador Arduino Nano</p>
+                <p class="services__description">1 Microcontrolador Esp8266</p>
                 <p class="services__description">Serie de Cables Puente</p>
-                <p class="services__description">1 Bicicleta</p>
-                <p class="services__description">1 Bateria</p>
+                <p class="services__description">1 Modulo KY-024</p>
+                <p class="services__description">Sensor Hall</p>
+                <p class="services__description">Baterias 18650</p>
+                <p class="services__description">Imanes de Neodimio</p>
             </div>
 
             <div class="services__content">
@@ -106,9 +108,12 @@
                 <h3 class="services__title">Herramientas en la Nube Azure</h3>
                 <p class="services__description">IoT HUB</p>
                 <p class="services__description">Stream Analytics Jobs</p>
-                <p class="services__description">Azure Cosmos DB</p>
                 <p class="services__description">Azure Digital Twins</p>
+                <p class="services__description">Azure SQL Database</p>
+                <p class="services__description">Azure Functions</p>
+                <p class="services__description">App Service</p>
                 <p class="services__description">Power BI</p>
+                <p class="services__description">Azure DevOps</p>
             </div>
 
             <div class="services__content">
@@ -117,7 +122,7 @@
                 <p class="services__description">Miro</p>
                 <p class="services__description">Diagrams.net</p>
                 <p class="services__description">Figma</p>
-
+                <p class="services__description">Lucidchart</p>
 
             </div>
         </div>
@@ -181,7 +186,7 @@
             
                 <h2 class="section-title about__initial">Idea de Solución<br> </h2>
                 
-                <img src="assets/img/Idea_de_solucion.png" alt="" class="about__img"  >
+                <img src="assets/img/ide_solu_ac.png" alt="" class="about__img"  >
             </div>
         </div>
 
@@ -195,19 +200,19 @@
 
             <div class="about__data">
                 <div></div>
-                <img src="assets/img/c4_02.png" alt="" class="about__img" >
+                <img src="assets/img/c4_1vac.png" alt="" class="about__img" >
             </div>
             <div class="about__data">
                 <div></div>
-                <img src="assets/img/c4_03.png" alt="" class="about__img" >
+                <img src="assets/img/c4_2vac.png" alt="" class="about__img" >
             </div>
             <div class="about__data">
                 <div></div>
-                <img src="assets/img/c4_04.png" alt="" class="about__img" >
+                <img src="assets/img/c4_3vac.png" alt="" class="about__img" >
             </div>
             <div class="about__data">
                 <div></div>
-                <img src="assets/img/ca_05.png" alt="" class="about__img" >
+                <img src="assets/img/c4_4vac.png" alt="" class="about__img" >
             </div>
         </div>
 
@@ -259,8 +264,16 @@
             </div>
         </div>
 
+        <div class="about__container bd-grid">   
+            <h2 class="section-title about__initial">Modulo y Sensor<br> </h2>        
+            <div class="about__data">
+                <h5 class="section-title about__initial">Modulo KY-024 con el Sensor Hall<br> </h5>
+                <img src="assets/img/modulo-k.png" alt="" class="about__img">
+            </div>
+        </div>
+
     </section>
-    <br><br>
+    <br>
     <section class="about section bd-container">
         <h2 class="section-title about__initial">Configuracion<br> </h2>
         <div class="about__container bd-grid">           
@@ -302,21 +315,22 @@
         <div class="about__container bd-grid">           
             <div class="about__data">
                 <h2 class="section-title about__initial">Mockup<br> </h2>
-                <h3 class="section-title about__initial">Mockups de las interfaces de la Aplicaion Web del Proyecto<br> </h>
+                <h3 class="section-title about__initial">Mockups de las interfaces usuario y administrador<br> </h>
             </div>
             <div class="about__data">
-                <img src="assets/img/mc_01.png" alt="" class="about__img">
+                <img src="assets/img/m_login.png" alt="" class="about__img">
             </div>
         </div>
-        <div class="about__container bd-grid">           
+        <div class="about__container bd-grid">   
+            <div class="about__data"> 
+                <img src="assets/img/m_registro.png" alt="" class="about__img">
+            </div>           
             <div class="about__data">
                 <img src="assets/img/mc_02.png" alt="" class="about__img">
             </div>
             <div class="about__data">
                 <img src="assets/img/mc_03.png" alt="" class="about__img">
             </div>
-        </div>
-        <div class="about__container bd-grid">           
             <div class="about__data">
                 <img src="assets/img/mc_04.png" alt="" class="about__img">
             </div>
@@ -324,6 +338,8 @@
                 <img src="assets/img/mc_05.png" alt="" class="about__img">
             </div>
         </div>
+
+
     </section>
     
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
